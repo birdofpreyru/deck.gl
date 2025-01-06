@@ -19,6 +19,25 @@ Ref: http://keepachangelog.com/en/0.3.0/
 
 ## deck.gl v9.0
 
+#### deck.gl [9.0.38] - Dec 11 2024
+
+- CARTO: Fix seams between tiles in RasterTileLayer (#9292)
+
+#### deck.gl [9.0.37] - Dec 6 2024
+
+- fix(mapbox) Remove type dependency on mapbox-gl (#9279)
+
+#### deck.gl [9.0.36] - Nov 21 2024
+
+- fix(layers): Fix MVTLayer + pickMultipleObjects (#9246)
+
+#### deck.gl [9.0.35] - Nov 8 2024
+
+- CARTO: Add Layer exports to ease subclassing (#9235)
+- CARTO: Fix off-by-one raster vertex shader error (#9236)
+- Avoid polluting function prototype in createPropsPrototypeAndTypes (#9207)
+- CARTO: HeatmapTileLayer full colorRange (#9068)
+
 #### deck.gl [9.0.34] - Oct 24 2024
 
 - carto: Fix performance regression in RasterLayer (#9218)
